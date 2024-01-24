@@ -1,17 +1,22 @@
 # pseudocode
 
-# Show the given numbers
-numbers = [10, 20, 40, 50, 10]
-print("The numbers are:", numbers)
+def first_and_last (List):
+    # Show the given numbers
+    print("The numbers are:", List)
 
-# Check if first and last numbers are the same
-first_num = numbers[0]
-last_num = numbers[-1]
+    # Check if first and last numbers are the same
+    first_num = List[0]
+    last_num = List[-1]
 
-if first_num == last_num:
+    if first_num == last_num:
+        return True
+    # Else
+    else:
+        return False
+
+numbers_1 = [10, 20, 40, 50, 10]
+numbers_2 = [20, 40, 60, 80, 45]
+
 # Print results
-    print("The result is True")
-# Else
-else:
-# Print results
-    print("The result is False")
+print("Result is", first_and_last(numbers_1))
+print("Result is", first_and_last(numbers_2))
