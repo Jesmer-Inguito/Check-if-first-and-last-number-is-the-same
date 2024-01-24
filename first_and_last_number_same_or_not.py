@@ -1,8 +1,11 @@
 # pseudocode
 
-# Enter list of numbers
-numbers = (input("Enter numbers: "))
+# Show the given numbers
 
-# Check if the first and last numbers are the same
+# Check if first and last numbers are the same
+
+# Print results
+
+# Else
 
 # Print results
